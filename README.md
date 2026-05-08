@@ -45,10 +45,10 @@
 
    **All Flavors**
    ```bash
-   curl -LO --output-dir ~/.config/waveterm/presets/ https://github.com/catppuccin/waveterm/raw/main/themes/backgrounds/catppuccin-backgrounds.json
+   curl -LO --output-dir ~/.config/waveterm/ https://raw.githubusercontent.com/Icky17/waveterm/refs/heads/main/themes/backgrounds/catppuccin-backgrounds.json
    ```
 
-2. Merge the contents of `catppuccin-backgrounds.json` into your `~/.config/waveterm/presets/presets.json` file (create it if it doesn't exist).
+2. Merge the contents of `catppuccin-backgrounds.json` into your `~/.config/waveterm/backgrounds.json` file (create it if it doesn't exist).
 
 3. Apply a background:
    - **Via UI**: Right-click on any tab → Select **Backgrounds** → Choose your desired Catppuccin flavor
@@ -65,22 +65,22 @@
 
    **🌻 Latte** *(Not recommended - see note above)*
    ```bash
-   curl -LO --output-dir ~/.config/waveterm/termthemes https://github.com/catppuccin/waveterm/raw/main/themes/terminal/catppuccin-latte.json
+   curl -LO --output-dir ~/.config/waveterm/termthemes https://raw.githubusercontent.com/Icky17/waveterm/refs/heads/main/themes/terminal/catppuccin-latte.json
    ```
 
    **🪴 Frappé**
    ```bash
-   curl -LO --output-dir ~/.config/waveterm/termthemes https://github.com/catppuccin/waveterm/raw/main/themes/terminal/catppuccin-frappe.json
+   curl -LO --output-dir ~/.config/waveterm/termthemes https://raw.githubusercontent.com/Icky17/waveterm/refs/heads/main/themes/terminal/catppuccin-frappe.json
    ```
 
    **🌺 Macchiato**
    ```bash
-   curl -LO --output-dir ~/.config/waveterm/termthemes https://github.com/catppuccin/waveterm/raw/main/themes/terminal/catppuccin-macchiato.json
+   curl -LO --output-dir ~/.config/waveterm/termthemes https://raw.githubusercontent.com/Icky17/waveterm/refs/heads/main/themes/terminal/catppuccin-macchiato.json
    ```
 
    **🌿 Mocha**
    ```bash
-   curl -LO --output-dir ~/.config/waveterm/termthemes https://github.com/catppuccin/waveterm/raw/main/themes/terminal/catppuccin-mocha.json
+   curl -LO --output-dir ~/.config/waveterm/termthemes https://raw.githubusercontent.com/Icky17/waveterm/refs/heads/main/themes/terminal/catppuccin-mocha.json
    ```
 
 2. The theme files should be placed in your WaveTerm config directory:
